@@ -101,7 +101,8 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 gap: 3rem;
-background-color: #131324;
+background: rgb(25,25,25);
+background: linear-gradient(90deg, rgba(25,25,25,1) 0%, rgba(9,9,9,1) 70%);
 height: 100vh;
 width: 100vw;
 .loader {
@@ -128,11 +129,13 @@ width: 100vw;
         height: 6rem;
     }
     .selected {
-        border: 0.4rem solid #4e0eff;
+        border: 0.4rem solid #DF5333;
+        box-shadow: 0 0 10px #F78259;
     }
 }
 .submit-btn {
-    background-color: #997af0;
+    background: rgb(238,119,96);
+    background: linear-gradient(90deg, rgba(238,119,96,1) 0%, rgba(207,48,48,1) 86%);
     color: white;
     padding: 1rem 2rem;
     cursor: pointer;
@@ -143,7 +146,8 @@ width: 100vw;
     text-transform: uppercase;
     transition: 0.4s ease-in-out;
     &:hover {
-      background-color: #4e0eff;
+        background: rgb(241,127,105);
+        background: linear-gradient(90deg, rgba(241,127,105,1) 0%, rgba(207,65,65,1) 86%);
     }
 }
 `;

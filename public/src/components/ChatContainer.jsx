@@ -158,13 +158,15 @@ const Container = styled.div`
     .sended {
         justify-content: flex-end;
         .content {
-            background-color: #4f04ff21;
+            background: rgb(233,134,116);
+            background: linear-gradient(90deg, rgba(233,134,116,1) 0%, rgba(214,39,39,1) 60%);
         }
     }
     .recieved {
         justify-content: flex-start;
         .content {
-            background-color: #9900ff20;
+            background: rgb(233,134,116);
+            background: linear-gradient(90deg, rgba(233,134,116,1) 0%, rgba(214,39,39,1) 60%);
         }
     }
   }

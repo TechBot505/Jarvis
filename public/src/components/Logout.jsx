@@ -23,9 +23,14 @@ const Button = styled.button`
   align-items: center;
   padding: 0.5rem;
   border-radius: 0.5rem;
-  background-color: #9a86f3;
+  background: rgb(238,119,96);
+  background: linear-gradient(90deg, rgba(238,119,96,1) 0%, rgba(207,48,48,1) 86%);
   border: none;
   cursor: pointer;
+  &:hover {
+    background: rgb(241,127,105);
+    background: linear-gradient(90deg, rgba(241,127,105,1) 0%, rgba(207,65,65,1) 86%);
+  }
   svg {
     color: #ebe7ff;
     font-size: 1.3rem;

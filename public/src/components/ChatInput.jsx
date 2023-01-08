@@ -50,7 +50,8 @@ const Container = styled.div`
   display: grid;
   grid-template-columns: 5% 95%;
   align-items: center;
-  background-color: #080420;
+  background: rgb(107,107,107);
+  background: linear-gradient(90deg, rgba(107,107,107,1) 0%, rgba(66,66,66,1) 70%);
   padding: 0 2rem;
   padding-bottom: 0.3rem;
   @media screen and (min-width: 720px) and (max-width: 1080px) {
@@ -66,16 +67,19 @@ const Container = styled.div`
         position: relative;
         svg {
             font-size: 1.8rem;
-            color: #ffff00c8;
+            color: #d1d1d1;
             cursor: pointer;
+            border: 3px solid white;
+            border-radius: 50px;
         }
         .EmojiPickerReact {
             height: 200px;
             position: absolute;
             top: -380px;
-            background-color: #080420;
-            box-shadow: 0 5px 10px #9a86f3;
-            border-color: #9186f3;
+            background: rgb(25,25,25);
+            background: linear-gradient(90deg, rgba(25,25,25,1) 0%, rgba(9,9,9,1) 70%);
+            box-shadow: 0 5px 20px #FF8E6E;
+            border-color: #CF3030;
             // .emoji-scroll-wrapper::-webkit-scrollbar {
             //     background-color: #080420;
             //     width: 5px;
@@ -104,7 +108,8 @@ const Container = styled.div`
     display: flex;
     align-content: center;
     gap: 2rem;
-    background-color: #ffffff34;
+    background: rgb(43,43,43);
+    background: linear-gradient(180deg, rgba(43,43,43,1) 0%, rgba(29,29,29,1) 60%);
     input {
         width: 90%;
         background-color: transparent;
@@ -125,9 +130,14 @@ const Container = styled.div`
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #9a86f3;
+        background: rgb(238,119,96);
+        background: linear-gradient(90deg, rgba(238,119,96,1) 0%, rgba(207,48,48,1) 86%);
         border: none;
         cursor: pointer;
+        &:hover {
+            background: rgb(241,127,105);
+            background: linear-gradient(90deg, rgba(241,127,105,1) 0%, rgba(207,65,65,1) 86%);
+        }
         @media screen and (min-width: 720px) and (max-width: 1080px) {
             padding: 0.3rem 1rem;
             svg {

@@ -74,11 +74,13 @@ const Container = styled.div`
   justify-content: center;
   gap: 1rem;
   align-items: center;
-  background-color: #131324;
+  background: rgb(25,25,25);
+  background: linear-gradient(90deg, rgba(25,25,25,1) 0%, rgba(9,9,9,1) 70%);
   .container {
     height: 85vh;
     width: 85vw;
-    background-color: #00000076;
+    background: rgb(37,37,37);
+    background: linear-gradient(180deg, rgba(37,37,37,1) 0%, rgba(9,9,9,1) 70%);
     display: grid;
     grid-template-columns: 25% 75%;
     @media screen (min-width:720px) and (max-width:1080px) {
@@ -88,6 +90,3 @@ const Container = styled.div`
 `;
 
 export default Chat;
-
-
-// #131324
